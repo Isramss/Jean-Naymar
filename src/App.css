@@ -79,11 +79,13 @@ main {
 
 .livre_accueil img {
   width: 192px;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.773));
   transition: filter 0.3s ease-in-out;
 }
 
 .livre_accueil img:hover {
   /* width: 100%; */
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.773));
   filter: brightness(45%);
 }
 
@@ -142,9 +144,11 @@ main {
 .card_book img {
   /* width: 192px; */
   width: 100%;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.773));
   transition: filter 0.3s ease-in-out;
 }
 .card_book:hover img {
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.773));
   filter: brightness(45%);
 }
 
